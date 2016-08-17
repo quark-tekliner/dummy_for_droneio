@@ -2,3 +2,9 @@ build:
   image: python
   commands:
     - python test.py
+
+notify:
+  slack:
+    webhook_url: https://hooks.slack.com/services/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
+    recipient: quark
+    username: drone
