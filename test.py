@@ -8,7 +8,7 @@ class AppTestCase(unittest.TestCase):
     self.assertEqual(foo(1, 2), 3)
 
   def test_bar(self):
-    self.assertEqual(bar(1, 2), -1)
+    self.assertEqual(bar(1, 2), -2)
 
 if __name__ == '__main__':
   unittest.main()
