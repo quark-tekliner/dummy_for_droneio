@@ -1,5 +1,5 @@
 import unittest
-from app import foo, bar
+from app import foo, bar,baz
 
 
 class AppTestCase(unittest.TestCase):
@@ -9,6 +9,9 @@ class AppTestCase(unittest.TestCase):
 
   def test_bar(self):
     self.assertEqual(bar(1, 2), -1)
+
+  def test_baz(self):
+    self.assertEqual(baz(2, 2), 4)
 
 
 if __name__ == '__main__':
