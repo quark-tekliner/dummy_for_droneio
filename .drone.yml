@@ -1,5 +1,4 @@
-pipeline:
-  build:
-    image: python
-    commands:
-      - python test.py
+build:
+  image: python
+  commands:
+    - python test.py
